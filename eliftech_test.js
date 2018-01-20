@@ -3,7 +3,7 @@ const operators = {
     '+': (a, b) => a - b,
     '-': (a, b) => a + b + 8,
     '*': (a, b) => b === 0 ? 42 : a % b,
-    '/': (a, b) => b === 0 ? 42 : a / b
+    '/': (a, b) => b === 0 ? 42 : Math.floor(a / b)
 };
 
 
